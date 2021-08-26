@@ -1,0 +1,103 @@
+->Tormentas de Ideas -> 
+
+-*/-*/Analisis conceptual de clases  -> Posibles tablas 
+
+User -> Por defecto Es el adminitrador de su CV. 
+ 
+
+---ENTIDADADES ---- 
+
+t_estudios -> Tiene los valores de los estudios con licencia. 
+
+t_cursos -> Entra la parte de cursos presencial o online diplimados, tallares Etc. 
+
+t_experiencia -> Experiencias laborables 
+
+t_conocimientos -> Entro esos skill que conoces como profesional 
+
+t_hobbies    ->  No muy apreciada en sur america pero en norte america es importante tener algun hobbie deportes estudios aprender un nuevo lenguaje 
+
+t_habilidades  -> Entra esas habilidades blandas soy paciente, se manejar la preción, tengo buena oratoria, 
+
+t_almacen_imagen -> Es una tabla pivote donde se alamcenaran las  imagenes relacionadas con su PK bien sea una imagen de estudios, cursos, conocimientos, habilidades, hobbies 
+
+
+-/-/Refinar tablas: 
+
+
+
+t_estudio
+	- id
+	- nomEstudio
+	- lugarEstudio
+	- anioEstudio
+	- id_user
+	- leng 
+	
+
+t_cursos 
+  - id
+  - nomCurso
+  - institutoCurso
+  - duracion
+  - fechaCurso
+  - categoria[front, back, gerencia, otros] fk 
+  - id_user
+  - leng -> esp ó ing
+  
+t_experiencia 
+   -id
+   -nomEmpresa
+   -duracion
+   -fechaInicio
+   -fechaFin
+   -logros
+   -responsabilidad
+   -cargo
+   -web
+   -nomJefe
+   -contactoJefe
+   - id_user   
+   - leng -> esp ó ing
+   
+t_conocimientos
+  -id
+  -nomConocimiento
+  -descConocimiento
+  -nivel
+  -categoria[front, back, gerencia, otros] fk 
+  - leng -> esp ó ing 
+  - id_user
+   
+
+t_hobbies
+  -id
+  -nomhobbies
+  -tiempo
+  - leng -> esp ó ing
+	
+t_habilidades
+  -id
+  -nomHabilidad
+  -descHabilidad
+  - leng -> esp ó ing
+  - id_user
+  
+t_almacen_imagen [Pensar logica la idea no es meter imaganes por cada tabla se alamcenan todas las relaciones aqui]
+  -id
+  -FK
+  -codigo[t_estudios, t_cursos, ]
+  - id_user
+
+s_categoria
+  -id
+  -nomCategoria
+  -activa
+  
+
+  
+  
+	
+
+
+

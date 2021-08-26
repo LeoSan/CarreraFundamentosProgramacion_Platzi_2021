@@ -1,0 +1,1458 @@
+{
+	"info": {
+		"_postman_id": "4bdd04cb-f042-4fab-8d8b-c12508e36220",
+		"name": "BACK - AppVerifyAnts",
+		"description": "#### Son Mis endPoint para mi app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Modulo Usuario",
+			"item": [
+				{
+					"name": "Crear usuario  - AppVerifyAnts",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nomUsu\":\"Kenny\",\r\n    \"emailUsu\":\"cuenca016@gmail.com\",\r\n    \"password\":\"85858iqwer\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/usuarios",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"usuarios"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Usuario - AppVerifyAnts",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA4NTIwNjYsImV4cCI6MTYyMDg1NTY2Nn0.S4WUOkDy5GtkB3el-dXAAUm6TEuccOZ_ZYfLhrG20Xw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"60931369a379ab3cc4a7e655\",\r\n    \"emailUsu\":\"cuenca623@gmail.com\",\r\n    \"nomUsu\":\"Jose\",\r\n    \"activo\":\"0\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/usuarios",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"usuarios"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Pass Usuario - AppVerifyAnts",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA4NTIwNjYsImV4cCI6MTYyMDg1NTY2Nn0.S4WUOkDy5GtkB3el-dXAAUm6TEuccOZ_ZYfLhrG20Xw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"60931369a379ab3cc4a7e655\",\r\n    \"emailUsu\":\"cuenca623@gmail.com\",\r\n    \"password\":\"HolaMundo\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/usuarios/pass",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"usuarios",
+								"pass"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Usuario - AppVerifyAnts",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA4NTIwNjYsImV4cCI6MTYyMDg1NTY2Nn0.S4WUOkDy5GtkB3el-dXAAUm6TEuccOZ_ZYfLhrG20Xw",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"609c467ec68b0f2b7ce0aff0\",\r\n    \"emailUsu\":\"cuenca741@gmail.com\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/usuarios",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"usuarios"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Modulo Recurrente",
+			"item": [
+				{
+					"name": "Crear Recurrente - AppVerifyAnts",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA4NDA1MzEsImV4cCI6MTYyMDg0NDEzMX0.oqAZEmeyJlbBIPnuyforaFQxfRq0i9Sh0k0LDkMMABA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomRecu\":\"Tipo Pago Mensual\",\r\n    \"desRecu\":\"Permite establecer un gato y este se repita mensualmente, es efectivo para los gastos de matricula universitaria\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/recurrente",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"recurrente"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Recurrente - AppVerifyAnts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA4NDA1MzEsImV4cCI6MTYyMDg0NDEzMX0.oqAZEmeyJlbBIPnuyforaFQxfRq0i9Sh0k0LDkMMABA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomRecu\":\"tipo pago diario\",\r\n    \"activo\":\"1\",\r\n    \"tipo\":\"1-M\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/recurrente",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"recurrente"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Recurrente - AppVerifyAnts",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA4NDA1MzEsImV4cCI6MTYyMDg0NDEzMX0.oqAZEmeyJlbBIPnuyforaFQxfRq0i9Sh0k0LDkMMABA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"609c11fe478a4721681bf318\",\r\n    \"nomRecu\":\"tipo pago diario\",\r\n    \"activo\":\"0\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/recurrente",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"recurrente"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Recurrente - AppVerifyAnts",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA4NDA1MzEsImV4cCI6MTYyMDg0NDEzMX0.oqAZEmeyJlbBIPnuyforaFQxfRq0i9Sh0k0LDkMMABA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"609c11fe478a4721681bf318\",\r\n    \"nomRecu\":\"tipo pago diario\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/recurrente",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"recurrente"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Modulo Actividad",
+			"item": [
+				{
+					"name": "Crear Actividad - AppVerifyAnts",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA0MzY1MTcsImV4cCI6MTYyMDQ0MDExN30.z022CRk0FeQkAZqD-MvLsbqw_Qhk9x8ovNCRgmvRqTQ",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomActi\":\"Verificacion Gastos 005\",\r\n    \"desActi\":\"Es el tipo de Actividad que engloba todo lo relacionado con los gastos\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/actividad",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"actividad"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Actividad - AppVerifyAnts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA0MzY1MTcsImV4cCI6MTYyMDQ0MDExN30.z022CRk0FeQkAZqD-MvLsbqw_Qhk9x8ovNCRgmvRqTQ",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomActi\":\"verificacion gastos 004\",\r\n    \"activo\":\"1\",\r\n    \"tipo\":\"1.1\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/actividad",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"actividad"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Actividad - AppVerifyAnts",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA0Mjk3NTgsImV4cCI6MTYyMDQzMzM1OH0.LM7zcIVltK8_bBh0oikfHGQ9jfZkAC29r5nmxJAQ1_M",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"609419a666807b1c1cc8dfd5\",\r\n    \"nomActi\":\"verificacion gastos\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/actividad",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"actividad"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Actividad - AppVerifyAnts",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA0Mjk3NTgsImV4cCI6MTYyMDQzMzM1OH0.LM7zcIVltK8_bBh0oikfHGQ9jfZkAC29r5nmxJAQ1_M",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"6095819506be383f7cf49ce6\",\r\n    \"nomActi\":\"Gastos Hormigas\",\r\n    \"desActi\":\"Prueba\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/actividad",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"actividad"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Modulo Categoria",
+			"item": [
+				{
+					"name": "Crear Categoria - AppVerifyAnts",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA0MzE2OTksImV4cCI6MTYyMDQzNTI5OX0.EljnGoCiSIYzHiLOe3Ya8wNa7qsZeVI7KiBor1kszNs",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomCate\":\"Tarjetas Abono Pago\",\r\n    \"desCate\":\"Representa todos los ingresos tipo ahorro 001\",\r\n    \"autor\":\"60931369a379ab3cc4a7e655\",\r\n    \"actividad\":\"609419a666807b1c1cc8dfd5\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/categoria",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"categoria"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Categoria - AppVerifyAnts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA2NzI0NDgsImV4cCI6MTYyMDY3NjA0OH0.zs8EkYwFG1FGLAKn-xjpjKcDYOSXX4KcVRXW2OFqm1s",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomCate\":\"ahorro\",\r\n    \"autor\":\"60931369a379ab3cc4a7e655\",\r\n    \"activo\":\"1\",\r\n    \"tipo\":\"1-M\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/gasto",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"gasto"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Categoria - AppVerifyAnts",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA0MzE2OTksImV4cCI6MTYyMDQzNTI5OX0.EljnGoCiSIYzHiLOe3Ya8wNa7qsZeVI7KiBor1kszNs",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"6095d39a949d6d23a4d6a095\",\r\n    \"nomCate\":\"Ahorro \",\r\n    \"desCate\":\"Representa todos los ingresos tipo ahorro 001\",\r\n    \"actividad\":\"6095819506be383f7cf49ce6\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/categoria",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"categoria"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Categoria - AppVerifyAnts",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA0MzE2OTksImV4cCI6MTYyMDQzNTI5OX0.EljnGoCiSIYzHiLOe3Ya8wNa7qsZeVI7KiBor1kszNs",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomCate\":\"Ahorro 001\",\r\n    \"id\":\"60941aea66807b1c1cc8dfd6\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/categoria",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"categoria"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Modulo Gasto",
+			"item": [
+				{
+					"name": "Crear Gasto - AppVerifyAnts",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"//Generar Variable con java Script\r",
+									"pm.environment.set(\"today\", new Date().toISOString())"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomGasto\":\"Uber 005\",\r\n    \"desGasto\":\"Gasto de uber normal\",\r\n    \"montoGasto\":\"100.12\",\r\n    \"usuario\":\"60931369a379ab3cc4a7e655\",\r\n    \"categoria\":\"6095d39a949d6d23a4d6a095\",\r\n    \"recurrente\":\"6094a01b6a96d31dc43d10a8\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/gasto",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"gasto"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Gastos - AppVerifyAnts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "{{Token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomGasto\":\"uber 001\",\r\n    \"usuario\":\"60931369a379ab3cc4a7e655\",\r\n    \"categoria\":\"6095d39a949d6d23a4d6a095\",\r\n    \"activo\":\"1\",\r\n    \"tipo\":\"1-M\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/gasto",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"gasto"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Gastos by Fecha - AppVerifyAnts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1Ijoiam9zZSJ9LCJpYXQiOjE2MjEzNTM1MDEsImV4cCI6MTYyMTM1NzEwMX0.dyWEyKYG3rFUJwSTc1hUQypJ9IV8ka7tI-uHqJyTpWY",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fechaConsultar\":\"2021-05-01\",\r\n    \"usuario\":\"609c5ac5a5005c1ec0b70ba3\",\r\n    \"categoria\":\"6095d39a949d6d23a4d6a095\",\r\n    \"activo\":\"1\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/gasto/gastobyfecha",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"gasto",
+								"gastobyfecha"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Gasto - AppVerifyAnts",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA2ODcwNzgsImV4cCI6MTYyMDY5MDY3OH0.-Jm9qWwvVMjesx_wQ6R2JYsrQfcPD17l3ch69lTDoEI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"6099bb0f31eb6732a0e9236f\",\r\n    \"nomGasto\":\"Prueba Editar\",\r\n    \"desGasto\":\"Prueba Editar\",\r\n    \"montoGasto\":\"1500.36\",\r\n    \"idCategoria\":\"6095d3a6949d6d23a4d6a096\", \r\n    \"idRecurrente\":\"6094a0506a96d31dc43d10a9\",\r\n    \"activo\":\"0\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/gasto",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"gasto"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Gasto - AppVerifyAnts",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA2ODg0ODQsImV4cCI6MTYyMDY5MjA4NH0.5Uq9eMlgMb3Raxzwzo-c5l2qWF4QjXVPPFh2Y9uQ0y0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"6099bb0f31eb6732a0e9236f\",\r\n    \"nomGasto\":\"prueba editar\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/gasto",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"gasto"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Modulo Ingreso",
+			"item": [
+				{
+					"name": "Crear Ingreso - AppVerifyAnts",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA3NDkyNzcsImV4cCI6MTYyMDc1Mjg3N30.uavB0EVMQrRYkSkYim-Ni5IsVeLaBHC42h3ptaXvn6Y",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomIngreso\":\"Pago TDC\",\r\n    \"desIngreso\":\"Pago TDC\",\r\n    \"montoIngreso\":\"200.12\",\r\n    \"usuario\":\"60931369a379ab3cc4a7e655\",\r\n    \"categoria\":\"6095d3a6949d6d23a4d6a096\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/ingreso",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"ingreso"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Ingreso - AppVerifyAnts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA3NDkyNzcsImV4cCI6MTYyMDc1Mjg3N30.uavB0EVMQrRYkSkYim-Ni5IsVeLaBHC42h3ptaXvn6Y",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomIngreso\":\"uber 001\",\r\n    \"usuario\":\"60931369a379ab3cc4a7e655\",\r\n    \"categoria\":\"6095d39a949d6d23a4d6a095\",\r\n    \"activo\":\"1\",\r\n    \"tipo\":\"1-M\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/ingreso",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"ingreso"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Por Fecha  Ingreso - AppVerifyAnts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1Ijoiam9zZSJ9LCJpYXQiOjE2MjEzNTM4MTMsImV4cCI6MTYyMTM1NzQxM30.V-03iPXYYvIaom0voDSU2P-dAjSw9T4Vo_1fSvPA3q8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fechaConsultar\":\"2021-06-01\",\r\n    \"usuario\":\"609c467ec68b0f2b7ce0aff0\",\r\n    \"categoria\":\"6095d39a949d6d23a4d6a095\",\r\n    \"activo\":\"1\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/ingreso/ingresobyfecha",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"ingreso",
+								"ingresobyfecha"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Ingreso - AppVerifyAnts",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA3NDkyNzcsImV4cCI6MTYyMDc1Mjg3N30.uavB0EVMQrRYkSkYim-Ni5IsVeLaBHC42h3ptaXvn6Y",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"609472a0e05fca026cc07dfd\",\r\n    \"nomIngreso\":\"Prueba Editar\",\r\n    \"desIngreso\":\"Prueba Editar\",\r\n    \"montoIngreso\":\"1500.36\",\r\n    \"idCategoria\":\"6095d3a6949d6d23a4d6a096\", \r\n    \"idRecurrente\":\"6094a0506a96d31dc43d10a9\",\r\n    \"activo\":\"0\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/ingreso",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"ingreso"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Ingreso - AppVerifyAnts",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA3NDkyNzcsImV4cCI6MTYyMDc1Mjg3N30.uavB0EVMQrRYkSkYim-Ni5IsVeLaBHC42h3ptaXvn6Y",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"609472a0e05fca026cc07dfd\",\r\n    \"nomIngreso\":\"prueba editar\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/ingreso",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"ingreso"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Modulo Patrimonio",
+			"item": [
+				{
+					"name": "Crear patrimonio - AppVerifyAnts",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1Ijoiam9zZSJ9LCJpYXQiOjE2MjE0NDQ2NjUsImV4cCI6MTYyMTQ0ODI2NX0.-TA_5LwjRRTXQ8VXnQ8C1H0yssHeOA4JxXHSDEJtrlI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomPatrimonio\":\"Escritorio\",\r\n    \"desPatrimonio\":\"Escritorio\",\r\n    \"montoPatrimonio\":\"2700.00\",\r\n    \"fechaCompra\":\"2020-12-06T21:16:25.885+00:00\",\r\n    \"usuario\":\"60931369a379ab3cc4a7e655\",\r\n    \"categoria\":\"6095d39a949d6d23a4d6a095\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/patrimonio",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"patrimonio"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener patrimonio - AppVerifyAnts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA3NDkyNzcsImV4cCI6MTYyMDc1Mjg3N30.uavB0EVMQrRYkSkYim-Ni5IsVeLaBHC42h3ptaXvn6Y",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomPatrimonio\":\"uber 001\",\r\n    \"usuario\":\"60931369a379ab3cc4a7e655\",\r\n    \"categoria\":\"6095d39a949d6d23a4d6a095\",\r\n    \"activo\":\"1\",\r\n    \"tipo\":\"1-1\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/patrimonio",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"patrimonio"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener patrimonio by Fecha - AppVerifyAnts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1Ijoiam9zZSJ9LCJpYXQiOjE2MjE0ODYyMzcsImV4cCI6MTYyMTQ4OTgzN30.ebayHsvPiRv_2MmVmjfBNbh2jug5Vybs2bu7b8lDBao",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fechaConsultar\":\"2021-05-01\",\r\n    \"usuario\":\"60931369a379ab3cc4a7e655\",\r\n    \"categoria\":\"6095d39a949d6d23a4d6a095\",\r\n    \"activo\":\"1\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/patrimonio/patrimoniobyfecha",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"patrimonio",
+								"patrimoniobyfecha"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Suma Patrimonio by Fecha - AppVerifyAnts",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1Ijoiam9zZSJ9LCJpYXQiOjE2MjE1NDc5NTcsImV4cCI6MTYyMTU1MTU1N30.f9b3P3W_Jirw74oX0kjmzx0c9_8ZA6s7kFYCPqCC9hI",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fechaConsultar\":\"2021-05-01\",\r\n    \"usuario\":\"60931369a379ab3cc4a7e655\",\r\n    \"categoria\":\"6095d39a949d6d23a4d6a095\",\r\n    \"activo\":\"1\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/patrimonio/patrimonioSumabyfecha",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"patrimonio",
+								"patrimonioSumabyfecha"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Patrimonio - AppVerifyAnts",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA3NDkyNzcsImV4cCI6MTYyMDc1Mjg3N30.uavB0EVMQrRYkSkYim-Ni5IsVeLaBHC42h3ptaXvn6Y",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"6094785e80d4681968a512a8\",\r\n    \"nomPatrimonio\":\"Prueba Editar\",\r\n    \"desPatrimonio\":\"Prueba Editar\",\r\n    \"montoPatrimonio\":\"1500.36\",\r\n    \"idCategoria\":\"6095d3a6949d6d23a4d6a096\", \r\n    \"activo\":\"1\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/patrimonio",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"patrimonio"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Patrimonio - AppVerifyAnts",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA3NDkyNzcsImV4cCI6MTYyMDc1Mjg3N30.uavB0EVMQrRYkSkYim-Ni5IsVeLaBHC42h3ptaXvn6Y",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"6094785e80d4681968a512a8\",\r\n    \"nomPatrimonio\":\"prueba editar\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/patrimonio",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"patrimonio"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Modulo de Acciones",
+			"item": [
+				{
+					"name": "Crear Accion - AppVerifyAnts",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA0MzM1NDcsImV4cCI6MTYyMDQzNzE0N30.MSpJSMwceGFX_dUHcD379zV-ZIVjuGkDfKIVdbPCa9E",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomAccion\":\"Ahorro 0008\",\r\n    \"desAccion\":\"Representa todos los ingresos tipo ahorro 001\",\r\n    \"autor\":\"60931369a379ab3cc4a7e655\",\r\n    \"categoria\":\"609419a666807b1c1cc8dfd5\",\r\n    \"inicio\":\"2021-05-06T21:16:25.885+00:00\",\r\n    \"fin\":\"2021-05-06T22:16:25.885+00:00\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/accion",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"accion"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Accion - AppVerifyAnts Copy",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA0MzM1NDcsImV4cCI6MTYyMDQzNzE0N30.MSpJSMwceGFX_dUHcD379zV-ZIVjuGkDfKIVdbPCa9E",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nomAccion\":\"ahorro 0002\",\r\n    \"autor\":\"60931369a379ab3cc4a7e655\",\r\n    \"tipo\":\"1.1\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/accion",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"accion"
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Accion - AppVerifyAnts",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA0MjUxMjcsImV4cCI6MTYyMDQyODcyN30.C-uSUERjWSSWaX8a7MMJa6v_UbEelrI3_9vhud9wFz4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"60945cb0f8c6fc367891b8f8\",\r\n    \"nomAccion\":\"Ahorro 002\"\r\n}\r\n"
+						},
+						"url": {
+							"raw": "localhost:4000/api/accion/",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"accion",
+								""
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Editar Accion - AppVerifyAnts",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-auth-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7ImlkIjoiNjA5MzEzNjlhMzc5YWIzY2M0YTdlNjU1Iiwibm9tVXN1IjoibGVvbmFyZCJ9LCJpYXQiOjE2MjA0MjUxMjcsImV4cCI6MTYyMDQyODcyN30.C-uSUERjWSSWaX8a7MMJa6v_UbEelrI3_9vhud9wFz4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"60945d35f8c6fc367891b8f9\",\r\n    \"nomAccion\":\"Ahorro 1\",\r\n    \"desAccion\":\"Ahorro 1\",\r\n    \"categoria\":\"609419a666807b1c1cc8dfd5\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:4000/api/accion/",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"accion",
+								""
+							]
+						},
+						"description": "Este End Point permite crear un usuario"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Token Autenticador - AppVerifyAnts",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"//const json = JSON.parse(responseBody);\r",
+							"//pm.environment.set(\"token\", `Token ${json.token}`);\r",
+							"\r",
+							"//Primera validacion -> Status 200\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"//Otra forma de validar los status \r",
+							"\r",
+							"//Primera validacion -> Status 200\r",
+							"pm.test(\"Status code is 2xx\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200,201,202]);\r",
+							"    //pm.expect(201).to.be.oneOf([200,201,202]);\r",
+							"});\r",
+							"\r",
+							"\r",
+							"// Validación token -> Que sea un Json \r",
+							"pm.test(\"La respuesta debe ser un Json \", function(){\r",
+							"    pm.response.to.be.json;\r",
+							"});\r",
+							"\r",
+							"// Validación token -> Que sea un Key Token\r",
+							"pm.test(\"La respuesta debe ser un Json \", function(){\r",
+							"    pm.response.to.have.jsonBody(\"token\");\r",
+							"    \r",
+							"   //Limpio la variable\r",
+							"    pm.environment.unset(\"Token\");\r",
+							"    \r",
+							"    //Guardar la variable tokens \r",
+							"    let jsonData = JSON.parse(responseBody);\r",
+							"    postman.setEnvironmentVariable(\"Token\", jsonData.token);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "alg",
+						"value": "HS256",
+						"type": "text"
+					},
+					{
+						"key": "typ",
+						"value": "JWT",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"emailUsu\":\"cuenca623@gmail.com\",\r\n    \"password\":\"HolaMundo\"\r\n}\r\n"
+				},
+				"url": {
+					"raw": "localhost:4000/api/auth",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"auth"
+					]
+				},
+				"description": "Este End Point permite crear un usuario"
+			},
+			"response": []
+		}
+	]
+}

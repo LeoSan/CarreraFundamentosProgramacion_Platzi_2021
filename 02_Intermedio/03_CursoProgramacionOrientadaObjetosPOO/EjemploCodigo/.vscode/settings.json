@@ -1,0 +1,10 @@
+{
+    "python.autoComplete.extraPaths": [
+        "./Python"
+    ],
+    "python.analysis.extraPaths": [
+        "C:\\Users\\cuenc\\Desktop\\Cursos\\00_Fundamentos de Programación\\02_Intermedio\\03_Curso de Programación Orientada a Objetos POO\\Project\\Python"
+    ],
+    "python.pythonPath": "python",
+    "python.jediEnabled":true
+}

@@ -1,0 +1,267 @@
+-*-*-*-*-*-*-*-*-*-*-*-*-*Curso de Flujo de Desarrollo Moderno CodeStream *-*-*-*-*-*-*-*-*-**
+
+El **flujo **es el estado en el cual estas concentrado y no notas que pasa el tiempo.
+Workflow o flujo de trabajo: Es una secuencia de tareas organizadas de tal manera que tengas mejor eficiencia.
+
+Ciclo de vida en software
+
+Cascada
+El software es tratado en cada departamento de forma separada y va pasando de uno en uno.
+Moderno
+Todos los departamentos están conectados de tal manera que trabajan uno con otro haciendo un flujo de trabajo.
+ciclovida.png
+El principio shift left (desplazarse a la izquierda) es conocido en DevOps que moviendo el enfoque de la calidad a la izquierda para comprimir el ciclo se logra mejor calidad y mejor rendimiento. Esto se hace porque al corregir errores en producción en 100 veces más caro que hacerlo al principio del diseño.
+shiftleft.png
+Puedes comenzar con el flujo moderno implementandolo en ti mismo, conforme vas avanzando, podrás aplicarlo en tu equipo añadiendo feedback request y así todos se beneficiarán. Cuando varios equipos usen el flujo moderno, podrás llevarlo a la organización beneficiándolo incorporando el área administrativa, la documentación y la parte de analítica.
+implementacionfm.png
+En la colaboración tradicional se hace una revisión al código al terminar el desarrollo y en la colaboración moderna se hacen muchas revisiones de código pequeñas a medida que se va desarrollando el proyecto.
+freciencacolavoracion.png
+Google atomiza la revisión de códigos para que dichas revisiones se tome un tiempo menos de 24 horas, teniendo un tiempo promedio de revisión de todo el ciclo en menos de 4 horas.
+
+
+
+Una vez entendiendo qué es el flow y el workflow, tenemos que “Shift Left” es básicamente no posponer la revisión del proyecto, esto porque siendo sinceros (Y hablando desde el punto de vista personal) es más difícil hacer revisiones y correcciones al final (Y esto implica tener que pasar por toda una fase de correciones que toma tiempo)
+.
+Básicamente Shift Left te dice: “Hey, tienes que estar revisando constantemente el proyecto buscando qué mejorar, no lo dejes para el final”
+.
+Y otras de sus ventajas es que tendrás todas las herramientas unificadas: “Todo en uno”, para no tener que saltar entre sí ir al editor, luego ir a GitHub, luego a escribir documentación… que esto es lo que rompe el “flujo”.
+
+************************************************VENTAJAS **********************************
+
+Lo que se busca al integrar las herramientas en el editor de texto es** evitar el cambio de contexto** lo que esto significa es no cambiar de ventanas, porque esto puede ocasionar una distracción ademas se busca el** reducir pasos** para eficientar el tiempo para realizar las tareas.
+
+Los beneficios son:
+
+Ahorrar tiempo
+
+Reducir Distracciones
+
+Tener acceso a el código en todo momento
+
+Mejorar la calidad
+
+Mejorar la comunicación
+
+No tener que cambiar de herramientas
+
+/*/-/-*/-*/-*/-*/-*/-*/-*/-*/En temas de productividad ese 32% si es muy importante.-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/-
+
+Enlisto los pasos que seguimos en el flujo Branch Moderno:–
+
+<h3>Resumen</h3>
+Flujo Branch moderno:
+
+Asignar ticket
+Crear branch
+Notificar al equipo
+Flujo Branch: Escribir código
+Pedir comentarios
+Obtener Sugerencias
+Explicar dirección
+Flujo Branch: Sugerencias
+Antes de un pull request
+Comunicación informal
+Documenta el proceso
+Flujo Branch: Revisión de código pre-PR
+Antes de un pull request
+Comunicación formal
+Se incorpora al PR
+Flujo Branch: Aprobación final
+Antes de un pull request
+Aprobación formal
+Reducción de pasos
+Ventajas: Mejor calidad, menos pasos, eficiencia, colaboración simplificada y ser más productivo
+
+
+<h3>Flujo moderno: Productividad</h3>
+
+Tradicional
+
+Herramientas no integradas.
+Más lineas de comando,
+Cambio de contexto entre sitio web y tu editor.
+Comunicación y documentación externa al editor.
+
+
+Moderno
+
+Herramientas integradas en el editor.
+Revisión del código antes del commit.
+Menos cambio de contexto.
+Comunicación y documentación integrada.
+
+Es increíble como el solo hecho de no salir de tu editor de texto puede ayudarte a ser mas productivo, que el aumento de productividad sea de un 32% es impactante.
+
+*-*/-/-*/-*/-*/-*/-*/-*/-*/-*/-*/-/--*/-Beneficios al integrar GitHub en tu editor:-*/-/-*/-*/-*/-*/-*/-/-/-*/
+
+Eliminación del cambio de contexto.
+Cambiar a una rama en un solo clic.
+Ejecutar una compilación durante la revisión.
+Saltar a la definición.
+Utilizar tus atajos de teclado, temas y personalizaciones preferidos.
+El contexto completo de tu repositorio.
+Comentar en cualquier parte del repositorio relacionado con la revisión del código.
+
+
+
+-*-*/-*/-*/-/-*/-*/-*/-*/-*-/-*/-*/-*/Feedback Request y Gestion de tareas-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/
+
+–
+Feedback Request (CodeStream)
+
+Relacionado con el concepto de un Pull Request. (PR).
+Se realiza antes en el flujo, para poder atomizar la colaboracion. (Revision mas rapida).
+Permite pedir feedback, es decir, comentarion sobre codigo en cualquier estado de tu repositorio.
+Es mucho mas facil para el revisor.
+–
+Definicion de un Feedback Request: Es una revision de codigo ligera antes del pull request. Para recibir comentarios sobre cualquier codigo, incluso antes de un commit.
+
+–
+Principios de colaboracion Shift Left:
+
+Antes mejor que despues.
+Colaboracion atomizada.
+Mas consulta que aprobacion.
+Reducir friccion administrativa.
+Compartir conocimientos.
+–
+Gestion de tareas (JIRA)
+
+–
+Interaccion de proyectos/tareas en VS Code:
+
+Incluye funcionalidad completa.
+Tres propositos: Automatizacion, Uniformidad, Comunicacion.
+Permite integrar mas de una aplicacion en la misma lista de tareas. (Jira, Trello y GitHub Issues).
+–
+Ventajas de tener un issue tracker integrado:
+
+Agregar un ticket mientras escribes o revisas codigo.
+Conectar el ticket directamente al codigo.
+Notificar a la persona indicada que hay un ticket y dirigirlo al lugar correcto en el codigo.
+No tener que cambiar de aplicacion o contexto. (Esto es importante, ya que en un cambio de contexto pueden haber distraccion, y al no haber distracciones mejora la calidad del codigo).
+Crear un registro de los tickets automaticos asociados al codigo mismo.
+
+
+-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/-/- Codemarks:-*/-/-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/-*
+
+Cada vez que creas un feedback request o PR o una unidad de comunicacion, se crea un codemark. Este es un enlace entre la informacion sobre el codigo (metadata) y el bloque del codigo al que se refiere.
+
+Permite preguntas, respuestas y feedback en cualquier parte del repo
+Puede ser un mensaje, un issue en Jira, o un permalink
+Los Codemarks son exportables.
+
+Code Chat tiene varios beneficios como:
+
+Facilitar la colaboración informal.
+.- Se integra con los sistemas de comunicación existentes (Slack, Microsoft Teams).
+.-Se adecúa a la evolución y las diferencias del código.
+.-Se puede utilizar en cualquier parte del repositorio.
+.-colaboracion informal atomatizada
+.-Permite hacer preguntas y sugerencias
+.-conecta distintas partes del flujo.
+.-conecta distintos bloques de codigo.
+.-Documenta el codigo.
+.-Explica decisiones ya tomadas
+En un flujo moderno para no liarnos tanto con commits que mas adelante nos toque hacer un rebase o un squash para no generar informacion no necesaria en el momento que estemos trabajando con gitops; se recomienda usar este code chat o codemarks el flujo de informacion entre los IDE se vuelve interesante para los desarrolladores en cuestion y evitar problemas de merge entre ramas. Ya lo estoy usado en mi proyecto y anda muy bien!!
+
+
+*/-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/El trabajar remotamente*/-*/-*/-*/-*/-*/-*/-*/-*/-*/
+El trabajar remotamente implica mucha responsabilidad, el tener la capacidad de concentrarse en el trabajo y lograr sacar un proyecto adelante. Live View es una herramienta muy interesante, pero siento que esta++ invadiendo mi privacidad++.
+Me da miedo.
+
+
+El flujo moderno:
+Transparencia
+
+-Una filosofia de trabajo
+-estar abierto a compartir conocimiento
+Estar abierto a mostrar trabajo con defectos
+-Saber que esta haciendo el equipo
+-Mostrar lo que estas haciendo tu
+-La documentacion hecha con codestream no queda obsoleta luego de unos cambios en el codigo. De hecho la documentacion va evolucionando con el codigo.
+
+
+
+Al hablar de trabajo remoto también vemos el tema de transparencia, que en pocas palabras, transparencia se describe como “Estamos abierto al conocimiento y a compartir conocimiento”.
+
+El trabajo remoto es la nueva norma y contar con una filosofía de transparencia en el equipo hará un cambio importante en el flujo moderno.
+
+La documentacion hecha con codestream no queda obsoleta luego de unos cambios en el codigo. De hecho la documentacion va evolucionando con el codigo.
+
+
+-*/-*/-*/*-/-*/*-/-*/-*/-*/-*/-*/-*/El problema de la documentacion-*/-*/-*/-*/-*/-*/-*/-*/-/-*/
+
+-La mayoria de los equipos de desarrollo no documentan su proyecto
+-menos del 20% de los desarrolladores usan la documentacion interna para resolver preguntas
+-Al empezar un trabajo nuevo, los desarrolladores pasan el 75% del tiempo estudiando codigo
+-Nadie sabe de antemano que pregunta tendra el otro******
+
+Por que docuementar con CodeStream?
+
+Documentacion conectada al codigo
+Documentacion interactiva, accesible y exportable
+Filtrado de tipos de anotaciones (documentacion, errores, o nota especial) gracias a las etiquetas.
+Documentacion en diferentes partes del codigo facil de rastrear.
+Compartible y extensible, gracias a los feedback request y otras funcionalidades
+Fomenta la documentacion temprana a partir de las preguntas emergentes y casos especiales.
+Fomenta las sugerencias antes de un Pull request, cuando se trabaja en equipo.
+
+ue debe capturarse
+
+-Todas las actividades relacionadas con la base de codigo de la organizacion:
+*comentarios
+*mensajes
+*issues
+*errores de produccion
+*sugerencias
+*Diagramas
+*frecuencia de colaboracion
+-todos los metadatos relacionados con el codigo
+
+Donde debe vivir la documentacion
+
+-con el codigo mismo
+*utilidad
+*conectividad
+*accesibilidad
+*interactividad
+_debe ser exportable a otros formatos
+*sistema de documentacion
+*sistemas analiticos
+
+Documentacion on demand
+
+En lugar de pensar que documentar, fomentar las preguntas
+En lugar de esperar el pull request, fomentar las sugerencias
+En lugar de armar documentos de induccion dejar que el nuevo desarrollador explique lo que necesita
+
+EL FUTURO DEL DESARROLLO DE SOFTWARE
+[========]
+
+El cambio a desarrollo remoto sera permanente
+Git es el presente y el futuro
+Los environments vendran precargados con los repositorios
+Los envirenments y los lenguajes de programacion seran mas especializados.
+Las barreras entre el desarrollo local, el desarrollo cloud, el desarrollo en pares y el desarrollo en equipo iran desapareciendo
+El desarrollo de software sera mas cooperativo y mas transparente. La inteligencia artificial sera tu copiloto
+
+*-*-*-*-*-*-*-*-*-*-*-*
+comentarios 
+
+Me parece una falta de respeto el que uno pague a una plataforma tan prestigiosa como lo es Platzi y no este organizada una ruta de estudio, tiene uno que aprender que es Jira y mas cosas por fuera para poder entender de lo que se habla, excelente practica para GitHub, pero no todos los estudiantes nuevos somos expertos o ya hemos trabajando con entornos como Jira, Issue Tracker, etc, etc, algunos estamos acá de ceros!
+
+No se si solamente soy yo pero estoy siguiendo la ruta de aprendizaje de desarrollo Web, hasta ahorita esta parte es la única que se me ha complicado.
+Creo que faltan pasos por explicar para la instalación de Code, hasta el momento no se ha hablado nada de Jira.
+En fin, espero poder resolver mis dudas por mi cuenta.
+
+Creo que seria buena idea, como los primeros pasos del curso, explicaran u poco mas de como configurar, el codescreen integrado con gitHib, Jira y Slack. Seria un buen tutorial introductorio, en la primera clase, explicar, conexion con github desde vscode, conexion jira code y conexion slack.
+Perdon me pierdo un poco con todo el contenido, pero por lo menos linkear, los cursos donde se explica eso detalladamente, si es que existen dentro de la plataforma.
+este tema lo veo muy interesante, pero desde el vscode, le dedique demasiado tiempo a intentar arma el entorno como lo tiene Claudio, pero no pude lograrlo.
+
+Saludos!
+
+
+Link-> 
+
+https://jaxenter.com/covid-19-transparency-170727.html

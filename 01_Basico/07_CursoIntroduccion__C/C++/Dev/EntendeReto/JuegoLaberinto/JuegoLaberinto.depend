@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1623194551 source:c:\users\cuenc\desktop\cursos\fundamentos de programación\curso de introducción a c\c++\dev\entendereto\juegolaberinto\src\player.cpp
+	<iostream>
+	"Player.h"
+
+1623194564 c:\users\cuenc\desktop\cursos\fundamentos de programación\curso de introducción a c\c++\dev\entendereto\juegolaberinto\include\player.h
+
+1623193001 source:c:\users\cuenc\desktop\cursos\fundamentos de programación\curso de introducción a c\c++\dev\entendereto\juegolaberinto\main.cpp
+	<iostream>
+	"Player.h"
+	"MapCell.h"
+	"GameMap.h"
+
+1623186351 source:c:\users\cuenc\desktop\cursos\fundamentos de programación\curso de introducción a c\c++\dev\entendereto\juegolaberinto\src\mapcell.cpp
+	"MapCell.h"
+
+1623186314 c:\users\cuenc\desktop\cursos\fundamentos de programación\curso de introducción a c\c++\dev\entendereto\juegolaberinto\include\mapcell.h
+
+1623192478 c:\users\cuenc\desktop\cursos\fundamentos de programación\curso de introducción a c\c++\dev\entendereto\juegolaberinto\include\gamemap.h
+	"MapCell.h"
+
+1623193721 source:c:\users\cuenc\desktop\cursos\fundamentos de programación\curso de introducción a c\c++\dev\entendereto\juegolaberinto\src\gamemap.cpp
+	"GameMap.h"
+	<iostream>
+	<fstream>
+	<stdio.h>
+	"windows.h"
+
