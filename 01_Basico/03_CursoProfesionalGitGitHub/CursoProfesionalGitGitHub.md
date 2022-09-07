@@ -5,7 +5,7 @@
  - Paso 1: podemos iniciar nuestro git , git ini-> crear nuestras ramas y todo lo demas 
  - Paso 2: Usamos este comando para anexarnos a un git remoto-> git remote add origin "http"
  - Paso 3: git pull origin master (main) -> Si te da conflicto es porque el detecta que tiene diferentes historias (fatal_refusing to merge unreletes histories)
- - Paso 4 Opcional: si nos ocurre el error anterior debemos fusionar nuestras historias con este comando ->git pull origin master(main) --allow-unrelated-histories -> nos hace un merge
+ - Paso 4: Opcional: si nos ocurre el error anterior debemos fusionar nuestras historias con este comando ->git pull origin master(main) --allow-unrelated-histories -> nos hace un merge
  - Paso 5: git push origin master (main) 
  
  
@@ -13,7 +13,7 @@
 - git init   -> Permite generar un repositorio e iniciar tu versiones 
 - git add    ->  Agrega tus cambios a la rama 
 - git sttaus -> valida el estatus 
-- git rm --cached nombreArchivo -> elimina y lo pone en memoria RAM, luego hay que ejecutar git add nombreArchivo ó --all ó git add . 
+- git rm nombreArchivo --cached  -> " git rm .env --cached " ->  elimina y lo pone en memoria RAM, luego hay que ejecutar git add nombreArchivo ó --all ó git add . 
 - git commit -m"Autor: Leonard, Descripcion: Aqui lo que pasa con ese archivo" -> realiza el commit 
 - git commit -am "Autor: Leonard, Descripcion: Aqui lo que pasa con ese archivo" -> realiza el add y el commit pero para archivo agregados previamente. 
 - git branch --list : Lista las ramas 

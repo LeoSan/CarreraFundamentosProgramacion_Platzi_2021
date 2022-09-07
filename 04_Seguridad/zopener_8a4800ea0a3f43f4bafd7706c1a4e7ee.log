@@ -1,0 +1,49 @@
+[11036:19428:2022-3-23 10:35:46.908] Main Start
+[11036:19428:2022-3-23 10:35:46.908] Command line:"C:\Users\cuenc\Desktop\Cursos\00_Fundamentos de Programación\CarreraFundamentosProgramacion_Platzi_2021\04_Seguridad\Zoom_cm_f5res15fwZ9vvrZo4_m7SaRbAoPk7vPt4+Gv-qkkicWmtTyWM1-nY7Y@+20qE9H8DSG+MX5A_k724d8eb113ec6015_.exe"  Instance:0xFE0000 Show State:1
+[11036:19428:2022-3-23 10:35:46.957] C:\
+[11036:1868:2022-3-23 10:35:46.961] [process_requst] start, url:https://impaqint.zoom.us/conf/launch
+[11036:1868:2022-3-23 10:35:47.484] [req_state_read_status_code] zHttpQueryInfo complete, status:200
+[11036:1868:2022-3-23 10:35:47.485] [req_state_read_status_code] zHttpQueryInfo complete, status:200 Error: 0
+[11036:1868:2022-3-23 10:35:47.485] [log_response_content] Content length (1048576 as unknown):1681 , Total read: 1681 , Error No: 0 , Status code: 200
+[11036:1868:2022-3-23 10:35:47.485] [log_response_content] header:
+[11036:1868:2022-3-23 10:35:47.485] HTTP/1.1 200 
+Date: Wed, 23 Mar 2022 16:35:48 GMT
+Content-Type: text/plain;charset=utf-8
+Content-Length: 1681
+Connection: keep-alive
+x-zm-trackingid: v=2.0;clid=aw1;rid=WEB_1522d2c7533988d4b561caa233a1ab92
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests; default-src https://*.zoom.us https://zoom.us blob: 'self'; img-src https: about: blob: data: 'self'; style-src https: safari-extension: chrome-extension: 'unsafe-inline' data: 'self'; font-src https: safari-extension: chrome-extension: blob: data: 'self'; connect-src * about: blob: data: 'self'; media-src * rtmp: blob: data: 'self'; frame-src https: ms-appx-web: zoommtg: zoomus: wvjbscheme: data: 'self'; object-src 'none'; base-uri 'none';
+X-FRAME-OPTIONS: SAMEORIGIN
+Set-Cookie: zm_aid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_haid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_tmaid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: zm_htmaid=""; Domain=.zoom.us; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: cred=2A2B601251D664618E09AFF31EDBB900; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_page_auth=aw1_c_5U_HuxsAQBGqA3dGdLzJGg; Domain=.zoom.us; Path=/; Secure; HttpOnly
+p3p: CP="NOI ADM DEV PSAi COM NAV OUR OTR STP IND DEM"
+Set-Cookie: _zm_ssid=aw1_c_8wo6YvtTRIab2zWIubMrcw; Domain=.zoom.us; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_ctaid=E2CInpS3S_S2y0ZohUDTow.1648053348520.e7043d423567b4b101c4b506cbc77052; Domain=.zoom.us; Expires=Wed, 23-Mar-2022 18:35:48 GMT; Path=/; Secure; HttpOnly
+Set-Cookie: _zm_chtaid=719; Domain=.zoom.us; Expires=Wed, 23-Mar-2022 18:35:48 GMT; Path=/; Secure; HttpOnly
+x-zm-zoneid: VA
+Set-Cookie: _zm_mtk_guid=d6236a5ce0b047cc923bb26d73ca7bab; Domain=.zoom.us; Expires=Fri, 22-Mar-2024 16:35:48 GMT; Path=/; Secure; HttpOnly
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+
+
+[11036:1868:2022-3-23 10:35:47.485] [process_requst] End for url:https://impaqint.zoom.us/conf/launch, return code:200, Error:0, Response content size:1681
+[11036:19428:2022-3-23 10:35:47.530] [imp_has_zoom_under_path] found zoom binaries under: 
+[11036:19428:2022-3-23 10:35:47.530] C:\Users\cuenc\AppData\Roaming\Zoom\bin\Zoom.exe
+[11036:19428:2022-3-23 10:35:47.530] [client_has_installed_app] found path:
+[11036:19428:2022-3-23 10:35:47.530] C:\Users\cuenc\AppData\Roaming\Zoom\bin\Zoom.exe
+[11036:19428:2022-3-23 10:35:47.531] [imp_has_zoom_under_path] found zoom binaries under: 
+[11036:19428:2022-3-23 10:35:47.531] C:\Users\cuenc\AppData\Roaming\Zoom\bin\Zoom.exe
+[11036:19428:2022-3-23 10:35:47.531] [client_has_installed_app] found path:
+[11036:19428:2022-3-23 10:35:47.531] C:\Users\cuenc\AppData\Roaming\Zoom\bin\Zoom.exe
+[11036:19428:2022-3-23 10:35:47.532] C:\Users\cuenc\AppData\Roaming\Zoom\bin\Zoom.exe
+[11036:19428:2022-3-23 10:35:47.587] client_launch_app: 
+[11036:19428:2022-3-23 10:35:47.587] C:\Users\cuenc\AppData\Roaming\Zoom\bin\Zoom.exe
+[11036:19428:2022-3-23 10:35:47.588] "--url=zoommtg://win.launch?h.domain=impaqint.zoom.us&h.path=join&confid=dXNzPTRFMUVqWTVITGREWjZRUzRJamNZamgtVUs4QlE1dHhGcVlRVVdaYUxVWk81NGlDVFhZSGZHR25pTkZmZUMxd1dVeE1aNFh5YXpfNFFHRTBFX1VQQ3B6SS0tRXJCQXcuVTZucXpiY055YXAwblBQcCZ0aWQ9MDFlMzM3NWQ1ODliNDJhNWExODRhY2NiMmE1YzIzOTI%3D&mcv=0.92.11227.0929&stype=0&zc=0&browser=chrome&action=join&confno=98068282874&pwd=R1prNWYxZllIMXJQYzFycit0YXpMQT09"
+[11036:19428:2022-3-23 10:35:47.735] [client_launch_app] Zoom app process created, result:42
+[11036:19428:2022-3-23 10:35:47.880] Main End
