@@ -133,7 +133,7 @@ Curso de Fundamentos de Docker
 **Podemos usar tres maneras enviar y consumir datos**⠀⠀
 - JSON -> (JavaScript Object Notation) -> es un estandar que nos permite enviar y consumir datos bajo uns estructura unica permitiendo la comuniación multiplataforma 
 - x-www-form-urlencoded -> Envia información atraves de la url 
-- form-data -> Simila el envio de datos como si fuera un formulario 
+- form-data -> Simula el envio de datos como si fuera un formulario 
 
 
 ## Pruebas Automaticas 
