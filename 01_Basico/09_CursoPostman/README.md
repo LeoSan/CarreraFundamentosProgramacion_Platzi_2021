@@ -1,4 +1,4 @@
-# Uso --- Postman 21 /05 /2021 
+# Básico de Postman 
 
 ## Estudiando el protocolo HTTP, verbos y status 
 
@@ -153,6 +153,6 @@ postman.setEnvironmentVariable("Token", jsonData.token);
 ```
 
 **Enlace**
-- Para mayor información podemosviistar este enlace  -> https://learning.postman.com/docs/writing-scripts/script-references/test-examples/ 
+- Para mayor información podemos visitar este enlace  -> https://learning.postman.com/docs/writing-scripts/script-references/test-examples/ 
 - Descargar esta guia en español [Guia Postman](https://github.com/LeoSan/CarreraFundamentosProgramacion_Platzi_2021/blob/main/01_Basico/09_CursoPostman/Postman.pdf)
-
+- Descargar Postaman [Aquí para descargar](https://www.getpostman.com/downloads/)
