@@ -3,8 +3,11 @@
 `
 
 ## Plan of Study
-- Basic 
-- Medium
-- Advanced
-**Certificate Final**
+-  [Basic](https://github.com/LeoSan/CarreraFundamentosProgramacion_Platzi_2021/tree/main/01_Basico)
+-  [Medium](https://github.com/LeoSan/CarreraFundamentosProgramacion_Platzi_2021/tree/main/02_Intermedio)
+-  [Advanced](https://github.com/LeoSan/CarreraFundamentosProgramacion_Platzi_2021/tree/main/03_Avanzado)
+-  [Seguridad](https://github.com/LeoSan/CarreraFundamentosProgramacion_Platzi_2021/tree/main/04_Seguridad)
+
+
+## Certificate Final
 ![Imagen](Fundamental_Develeper_Certificate_2020_Platzi.png)
