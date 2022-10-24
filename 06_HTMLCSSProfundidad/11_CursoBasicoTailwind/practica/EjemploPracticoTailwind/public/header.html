@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+</head>
+<body>
+    <nav x-data="{ open: false }" class="sticky top-0 z-10 w-full bg-gray-500 text-white">
+        <div>
+            <div class="flex flex-row justify-around items-center">
+                 <img class="w-80 py-4" src="imagen/logo-w.svg" alt="" /> 
+                 <div class="text-5xl mr-5 hover:cursor-pointer" @click="open = true">&equiv;</div>
+             </div> 
+        </div>
+        <!-- Aqui funcionalidad de ocultar y mostrar  -->
+        <div x-show.transition="open"
+            @click.away="open = false "
+        >
+            <div class="mt-1 mx-2">
+                <input class="form-control" id="buscador" type="search" name="buscador" placeholder="Busqueda"  />
+            </div>
+            <div class="mx-2 md:flex justify-around">
+                <div class="flex ">
+                    Precio:
+                    <div class="ml-1">$  </div>
+                    <div class="ml-1 text-primary">$$  </div>
+                    <div class="ml-1"> $$$ </div>
+                    <div class="ml-1"> $$$$ </div>
+                </div>
+                <div class="flex ">
+                    Calificación:
+                    <div class="ml-2 text-primary">&starf;  </div>
+                    <div class="ml-px text-primary">&starf;</div>
+                    <div class="ml-px text-primary"> &starf;</div>
+                    <div class="ml-px text-primary"> &starf; </div>
+                    <div class="ml-px text-primary"> &star; </div>
+                </div>   
+                <div>
+                    <button class="bg-yellow-500 block mx-auto px-4 m-1 py-1 rounded shadow-xl hover:shadow-none text-gray-800 hover:bg-yellow-300 ">Filtrar </button>
+                </div>         
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="h-64 w-full flex justify-around px-2 py-2 bg-opacity-40">
+            <img class="bg-center" src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=100" alt="" /> 
+            <img class="bg-center " src="imagen/restaurante_dos.jpg" alt="" /> 
+            <div class="absolute text-center">
+                <h2 class=" text-white text-5xl md:text-8xl "> Restaurante</h2>
+                <hr class="my-3 border-t-4">
+                <h3 class="text-white text-5xl md:text-6xl">Bienvenido</h3>
+              </div>
+        </div>
+        <div class="bg-yellow-100 container mx-auto">
+            <div class=" flex justify-around ">
+                <div class="m-4 md:w-1/2 md:flex bg-white rounded-lg ">
+                    <div> 
+                        <img class=" w-full rounded-lg md:rounded-br-none" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80" alt="Hamburguesa">
+                    </div>
+                    <div class="relative mx-2 p-2 shadow-lg md:shadow-none md:bg-transparent -mt-2">
+                        <h2 class="text-xl uppercase tracking-tight font-semibold text-gray-900 md:text-lg">Hamburguesa </h2>
+                        <p class="text-gray-700 leading-snug">Hamburguesa con queso y chipotle</p>
+                        <div class="mt-2 text-sm font-semibold text-gray-700">MXN $150 </div>
+                        <div class="mt-2 text-xs text-yellow-700">&starf;&starf;&starf;&star; / 36 Reseñas</div>
+                    </div>
+                </div>  
+                <div class="m-4 md:w-1/2 md:flex bg-white rounded-lg ">
+                    <div> 
+                        <img class="w-full rounded-lg md:rounded-br-none" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&h=500&q=80" alt="Hamburguesa">
+                    </div>
+                    <div class="relative mx-2 p-2 shadow-lg md:shadow-none md:bg-transparent -mt-2">
+                        <h2 class="text-xl uppercase tracking-tight font-semibold text-gray-900 md:text-lg">Hamburguesa </h2>
+                        <p class="text-gray-700 leading-snug">Hamburguesa con queso y chipotle</p>
+                        <div class="mt-2 text-sm font-semibold text-gray-700">MXN $150 </div>
+                        <div class="mt-2 text-xs text-yellow-700">&starf;&starf;&starf;&star; / 36 Reseñas</div>
+                    </div>
+                </div>                 
+            </div>            
+        </div>
+    </main>
+    <main class="flex  flex-row justify-center justify-items-center">
+        <div class="ml-16 mr-16 bg-gray-600 w-80 p-2 mt-4 mb-4">
+            <form class="m-4">
+                <div class="items-center">
+                    <div class="text-yellow-500 text-3xl">Cont&aacute;ctanos</div>
+                    <div class="text-gray-100"> 
+                        <label for="Nombre" >Nombre</label>   
+                    </div>
+                    <input class="form-control" id="nombre" type="text" placeholder="Nombre">
+                </div>
+                <div>
+                    <div class="text-gray-100"> 
+                        <label for="Email">Email</label>   
+                    </div>
+                    <input class="form-control" id="Email" type="email" placeholder="Email">
+                </div>
+                <div>
+                    <div class="text-gray-100"> 
+                        <label for="Comentario">Comentario</label>   
+                    </div>
+                    <textarea class="form-control" name="Comentario" id="Comentario" cols="30" rows="10"></textarea>
+                </div>
+                <div >
+                    <button class="w-full bg-yellow-500  px-4 py-1 rounded shadow-xl hover:shadow-none text-gray-800 hover:bg-yellow-300">Enviar <i class="fas fa-paper-plane mr-4"></i> </button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="bg-gray-500  w-full text-white">
+        
+        <div class="md:flex md:flex-row-reverse justify-around">
+            <div class="mt-4 ml-8 ">  
+                <div class="hover:text-yellow-300 hover:cursor-pointer "> <i class="fa fa-facebook"></i>  Facebook</div>  
+                <div class="hover:text-yellow-300 hover:cursor-pointer" > <i class="fa fa-twitter"></i>   Twitter</div>  
+                <div class="hover:text-yellow-300 hover:cursor-pointer"> <i class="fa fa-instagram"></i> Instagram</div>  
+            </div>
+            <ul class="ml-8 mt-4 mb-4 md:list-disc">
+                <li>Soporte</li>  
+                <li>Acerca Nosotros</li>  
+                <li>Registro</li>  
+                <li>Aviso Privacidad</li>  
+            </ul>
+        </div>            
+    </footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="container mx-auto mt-5 text-center">
+        <h3 class="mt-5">Grid de Columnas </h3>
+        <p>gap-4 -> </p>
+        <p>col-gap-4 -> </p>
+    <div class="grid grid-cols-3 gap-2">
+        <div class="bg-red-400 border-solid ">A</div>
+        <div class="bg-red-400 border-solid ">B</div>
+        <div class="bg-red-400 border-solid ">C</div>
+        <div class="bg-red-400 border-solid ">C</div>
+        <div class="bg-red-400 border-solid ">C</div>
+        <div class="bg-red-400 border-solid ">C</div>
+    </div>
+
+    <h3 class="mt-5">Grid de Columnas Responsivo  </h3>
+    <p>grid grid-cols-1 sm:grid-cols-3 gap-24 -> La clave de esto es que se defina sm: para pantalla mediana  y de manera natural  grid-cols-1 </p>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+        <div class="bg-green-400 border-solid ">A</div>
+        <div class="bg-green-400 border-solid ">B</div>
+        <div class="bg-green-400 border-solid ">C</div>
+        <div class="bg-green-400 border-solid ">C</div>
+        <div class="bg-green-400 border-solid ">C</div>
+        <div class="bg-green-400 border-solid ">C</div>
+    </div>  
+    
+    
+    <h3 class="mt-5">Grid de Columnas Tipo Dashboard  </h3>
+    <p>bg-pink-400 border-solid col-span-2 ->  </p>
+    <div class="grid grid-cols-4 gap-2">
+        <div class="bg-pink-400 border-solid col-span-2">A</div>
+        <div class="bg-green-400 border-solid ">B</div>
+        <div class="bg-green-400 border-solid ">C</div>
+        <div class="bg-green-400 border-solid col-span-4 ">D</div>
+    </div>      
+
+    <div class="grid grid-rows-2 grid-cols-4 gap-2 my-2">
+        <div class="bg-pink-500 col-span-1">A</div>
+        <div class="bg-pink-500 col-span-1">A</div>
+        <div class="bg-pink-500 col-span-2 row-span-2">B</div>
+        <div class="bg-pink-500 col-span-1">C</div>
+        <div class="bg-pink-500 col-span-1">C</div>
+    </div>
+    
+    <!-- Responsive -->
+    <div class="grid grid-rows-1 sm:grid-rows-2 grid-cols-1 sm:grid-cols-4 gap-2">
+        <div class="bg-pink-500 col-span-1">A</div>
+        <div class="bg-pink-500 col-span-1">A</div>
+        <div class="bg-pink-500 col-span-1 sm:col-span-2 row-span-1 sm:row-span-2">B</div>
+        <div class="bg-pink-500 col-span-1">C</div>
+        <div class="bg-pink-500 col-span-1">C</div>
+    </div>    
+
+    <div class="grid grid-cols-1 grid-rows-1 sm:grid-cols-4 sm:grid-rows-2 gap-2 my-2">
+        <div class="bg-yellow-200">1</div>
+        <div class="bg-yellow-200">2</div>
+        <div class="bg-yellow-200 col-span-1 row-span-1  sm:col-span-2 sm:row-span-2">3</div>
+        <div class="bg-yellow-200">4</div>
+        <div class="bg-yellow-200">5</div>
+    </div>
+</body>
+</html>

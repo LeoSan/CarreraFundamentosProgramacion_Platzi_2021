@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Flex </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="m-8">
+
+    <div class="bg-gray-800 p-8">
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+    </div>
+
+Flex Direccion::
+flex-row -> horizontal 
+    <div class="flex flex-row bg-gray-800 p-8">
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+    </div>
+   flex-col -> vertical 
+    <div class="flex flex-col bg-gray-800 p-8">
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+    </div>
+    flex-row-reverse -> Horizontal reverse 
+    <div class="flex flex-row-reverse bg-gray-800 p-8">
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+    </div>
+    flex-col-reverse -> vertical reverse 
+    <div class="flex flex-col-reverse bg-gray-800 p-8">
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+        <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+    </div>
+
+Justificaciones <br>
+justify-start  -> Por defecto
+<div class="flex justify-start bg-gray-800 p-8">
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+</div>
+
+justify-end  -> Final del lado derecho 
+<div class="flex justify-end bg-gray-800 p-8">
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+</div>
+
+
+justify-between  -> Justificado entre los elementos 
+<div class="flex justify-between bg-gray-800 p-8">
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+</div>
+
+justify-around  -> Justificado alrededor de los elementos 
+<div class="flex justify-around bg-gray-800 p-8">
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+</div>
+
+Alneado de los elementos <BR> 
+    items-center -> pero se usa con ( flex  )    
+<div class="h-64 flex  items-center justify-around bg-gray-800 p-8">
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+</div>
+
+items-start -> pero se usa con ( flex  )    
+<div class="h-64 flex flex-row items-start justify-around bg-gray-800 p-8">
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+</div>
+
+items-end -> pero se usa con ( flex  )    
+<div class="h-64 flex flex-row items-end justify-around bg-gray-800 p-8">
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+</div>
+
+items-stretch -> pero se usa con ( flex  )    
+<div class="h-64 flex flex-row items-stretch justify-around bg-gray-800 p-8">
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+</div>
+
+items-baseline -> Se van a linear a la base de un texto
+<div class="h-64 flex flex-row items-baseline justify-around bg-gray-800 p-8">
+    <div class="text-white">Se ajusta</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 1</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 2</div>
+    <div class="bg-gray-300 px-4 py-2 m-2">Flex 3</div>
+</div>
+
+Order <br>
+order-N.. -> 
+<div class="h-64 flex flex-row items-baseline justify-around bg-gray-800 p-8">
+    <div class="text-white order-4">Se ajusta</div>
+    <div class="bg-gray-300 px-4 py-2 m-2 order-5">Flex 1</div>
+    <div class="bg-gray-300 px-4 py-2 m-2 order-2">Flex 2</div>
+    <div class="bg-gray-300 px-4 py-2 m-2 order-1">Flex 3</div>
+</div>
+
+
+
+
+</body>
+</html>

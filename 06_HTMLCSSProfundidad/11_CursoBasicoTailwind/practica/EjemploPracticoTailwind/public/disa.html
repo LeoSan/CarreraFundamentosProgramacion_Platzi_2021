@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="mt-20 ml-20">
+
+    <button class="bg-green-500 active:bg-green-700 ...">
+        Click me
+      </button>
+
+      <button  class="disabled:opacity-50 bg-blue-500 hover:text-red-900 rounded-md my-2  px-2" disabled>
+        Submit
+      </button>
+
+      <h1 class="text-2xl mt-10">Colores y Dimensiones</h1>
+      <button class="bg-blue-800 text-blue-200 py-2 px-5 mt-5 rounded w-full sm:w-48">
+          Submit
+      </button>
+  
+      <h1 class="text-2xl mt-10">Display y Flexbox</h1>
+      <div class="flex flex-wrap">
+          <button class="bg-blue-800 text-blue-200 py-2 px-5 ml-5 mt-5 rounded w-full sm:w-48">
+              Submit
+          </button>
+          <button class="bg-blue-800 text-blue-200 py-2 px-5 ml-5 mt-5 rounded w-full sm:w-48">
+              Submit
+          </button>
+          <button class="bg-blue-800 text-blue-200 py-2 px-5 ml-5 mt-5 rounded w-full sm:w-48">
+              Submit
+          </button>
+      </div>
+  
+      
+      <h1 class="text-2xl mt-10">Pseudo—Class Variants</h1>
+      <p>Nota: en Variants se agrega 'active' a backgroundColor y textColor</p>
+      <div class="flex flex-wrap">
+          <button class="hover:bg-blue-800 hover:text-blue-200 active:bg-blue-600 focus:bg-blue-800 focus:text-blue-200 focus:outline-none focus:shadow-outline bg-blue-200 text-blue-800 py-2 px-5 ml-5 mt-5 rounded w-full sm:w-48">
+              Submit
+          </button>
+          <button class="hover:bg-blue-800 hover:text-blue-200 active:bg-blue-600 focus:bg-blue-800 focus:text-blue-200 focus:outline-none focus:shadow-outline bg-blue-200 text-blue-800 py-2 px-5 ml-5 mt-5 rounded w-full sm:w-48">
+              Submit
+          </button>
+          <button class="hover:bg-blue-800 hover:text-blue-200 active:bg-blue-600 focus:bg-blue-800 focus:text-blue-200 focus:outline-none focus:shadow-outline bg-blue-200 text-blue-800 py-2 px-5 ml-5 mt-5 rounded w-full sm:w-48">
+              Submit
+          </button>
+      </div>
+  
+  
+      <h1 class="text-2xl mt-10">Extraer componentes usando @apply</h1>
+      <div class="flex flex-wrap">
+          <div class="alert alert-default">
+              Este mensaje es una alerta default.
+          </div>
+          
+          <div class="alert alert-danger">
+              Este mensaje es una alerta danger.
+          </div>
+          
+          <div class="alert alert-warning">
+              Este mensaje es una alerta warning.
+          </div>
+          
+          <div class="alert alert-info">
+              Este mensaje es una alerta info.
+          </div>
+      </div>      
+
+</body>
+</html>
