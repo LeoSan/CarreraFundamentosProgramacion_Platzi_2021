@@ -1,0 +1,17 @@
+{
+  "name": "NavBarAnimado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server index.html src/tailwind.css -o css/estilos.css --watch",
+    "build": "npx tailwindcss-cli@latest build src/tailwind.css -o css/estilos.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  }
+}

@@ -1,0 +1,32 @@
+/*Ejemplo de De importar font en google */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Lato&family=Raleway+Dots&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+h1 {
+    @apply text-xl text-gray-700 bg-blue-400; 
+}
+
+
+h2 {
+    @apply text-2xl text-gray-700 bg-yellow-500; 
+}
+
+h3 {
+    @apply text-3xl text-gray-700 bg-yellow-400; 
+}
+
+.form-control{
+    @apply w-full leading-snug text-gray-700  bg-gray-200 border border-yellow-600 py-1 px-4 rounded-xl placeholder-secundario;
+}
+.form-control:hover{
+    @apply bg-white  cursor-pointer;
+}
+
+.form-control:focus{
+    @apply  outline-none;
+}
