@@ -1,0 +1,1 @@
+ALTER TABLE dbo.catalogos_elementos ADD id_catalogo int IDENTITY(1,1)  NOT NULL PRIMARY KEY; 
