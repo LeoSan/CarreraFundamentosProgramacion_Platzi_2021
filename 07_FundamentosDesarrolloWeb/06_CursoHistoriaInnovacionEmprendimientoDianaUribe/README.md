@@ -19,6 +19,7 @@ Un Pixel se forma por la combinación de tonos de 3 sub-píxeles que son rojo, v
 ¿Cuáles son todas las partes de un Critical Rendering Path?
 
 DOM 2. CSSOM 3. Render Tree 4. JS Engine 5. Layout
+DOM 2. CSSOM 3. Render Tree 4. JS Engine 5. Paint
 REPASAR CLASE
 5.
 ¿Cómo convierte una computadora texto en unos y ceros?
@@ -35,18 +36,22 @@ HTML y CSS son dos de los principales estándares web.
 
 Verdadero
 
+
 8.
 ¿En qué paso del Critical Rendering Path comenzamos a crear la estructura del proyecto sin diseño?
 
 Render Tree
-
+Paint
 REPASAR CLASE
+
 9.
 ¿Cuáles fueron las tres tecnologías que dieron nacimiento a la web como la conocemos hoy en día?
 
 HTML, CSS y JS.
+HTTP, IP y DNS.
 
 REPASAR CLASE
+
 10.
 ¿Qué es ISP?
 
