@@ -91,3 +91,36 @@ Monitor, bocinas, audífonos e impresora.
 ¿Qué significa WWW?
 
 World Wide Web
+
+
+
+El hombre que ves en esta imagen fue un ingeniero e inventor estadounidense y pionero en la industria eléctrica. ¿De quién se trata?
+
+george-westinghouse.png
+George Westinghouse.
+
+2.
+La mujer que estás viendo cambió la historia de la moda afianzando líneas de ropa prêt-à-porter. ¿De quién hablamos?
+
+coco-channel.png
+Coco Chanel.
+
+3.
+Por muchos años su nombre fue borrado de la historia de la innovación. A comienzos del siglo 21 fue reconocido como el inventor del teléfono. ¿A quién nos referimos?
+
+antonio-meucci.png
+Antonio Meucci.
+
+4.
+Hijo de una pareja de jóvenes pertenecientes a la clase media. En un momento de su vida fue expulsado de su propia empresa, pero hoy es considerado una de las mentes más brillantes de nuestra era. ¿De quién se trata?
+
+steve-jobs.png
+Steve Jobs.
+
+5.
+Estas mujeres rompieron varios techos de cristal. Su trabajo en matemáticas llevó a la humanidad, literalmente, hasta las estrellas ✨ ¿De quiénes hablamos?
+
+dorothy-mary-katherine.png
+Dorothy Vaughan, Mary Jackson y Katherine Johnson.
+
+Ver menos
