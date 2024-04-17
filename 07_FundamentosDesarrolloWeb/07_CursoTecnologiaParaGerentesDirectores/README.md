@@ -123,9 +123,11 @@ Crecer como profesionales.
 
 29.
 A las personas que no siguen una carrera de gestión de personal sino de crecimiento técnico se les conoce como:
+
 SE: Software Engineers
 REPASAR CLASE
 
 30.
 ¿Quién despide?
+
 VP de Ingeniería
