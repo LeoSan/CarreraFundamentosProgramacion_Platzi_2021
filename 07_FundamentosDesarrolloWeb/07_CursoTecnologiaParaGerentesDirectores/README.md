@@ -31,13 +31,11 @@ La interfaz del usuario.
 
 8.
 El perfil de quienes gestionan los servidores es:
-
 DevOps
+
 9.
 Un PM o Product Manager debe saber de:
-Modelos de negocio
-REPASAR CLASE
-
+Desarrollo de software
 
 10.
 ¿Quién está a cargo de crear las rutas de crecimiento del talento técnico del equipo?
@@ -50,78 +48,76 @@ Entregas cortas iterativas.
 12.
 Lo más importante para un equipo de alto rendimiento es tener:
 Colaboración efectiva
+Colaboración efectiva
 REPASAR CLASE
 
-13.
+14.
 De las siguientes contraseñas, ¿cuál es más segura?
 P0nie5 danzantes en el @ire
 
-14.
+15.
 ¿Cuál de las siguientes formas de autenticación de doble factor es más segura?
 Una llave USB como Yubikey.
 
-15.
+16.
 Con los documentos impresos en papel, por seguridad, lo mejor es:
 Nunca imprimirlos, solo digital.
 
-16.
+17.
 En una base de datos, la redundancia de información:
 Se debe evitar con IDs y tablas enlazadas.
 
-17.
+18.
 ¿Qué es una API (Application Programming Interface)?
 Una forma de conectar bases de datos con otros sistemas, como front-ends o apps móviles.
 
-18.
-Al borrar datos en tu aplicación, lo correcto es:
-Borrar para siempre los datos (por seguridad).
-REPASAR CLASE
-
 19.
+Al borrar datos en tu aplicación, lo correcto es:
+Dejar el dato histórico en la base de datos sin borrar nada, solo desaparecerlo de la interfaz.
+
+20.
 La deuda técnica es:
 Inevitable y normal.
 
-20.
+21.
 ¿Qué es HTTP?
 Hypertext Transfer Protocol
 
-21.
-En un servidor ubicado en tu oficina puedes tener:
-Servicios web nada más.
-REPASAR CLASE
-
 22.
-Un Data Center se conecta a Internet típicamente usando:
-ADSL
-REPASAR CLASE
+En un servidor ubicado en tu oficina puedes tener:
+Cualquier cosa realmente.
 
 23.
+Un Data Center se conecta a Internet típicamente usando:
+Fibra óptica
+
+24.
 La certificación ISO-27001 es una certificación de:
 Seguridad
 
-24.
+25.
 ¿En qué casos se usa una certificación en PCI Compliance?
 Al guardar datos de tarjeta de crédito.
 
-25.
+26.
 ¿En qué casos se usa una certificación en HIPAA Compliance?
 Al guardar datos de salud de personas.
 
-26.
+27.
 ¿Qué pasará con los costos de los desarrolladores de software en programación?
 Serán más baratos.
+Seguirán igual.
 REPASAR CLASE
 
-27.
+29.
 La diferencia de salarios entre quienes van a la universidad y los autodidactas es:
-50%
-REPASAR CLASE
+Casi nada
 
-28.
+30.
 Al talento técnico lo que más los motiva es:
 Crecer como profesionales.
 
-29.
+31.
 A las personas que no siguen una carrera de gestión de personal sino de crecimiento técnico se les conoce como:
 
 SE: Software Engineers
@@ -131,3 +127,38 @@ REPASAR CLASE
 ¿Quién despide?
 
 VP de Ingeniería
+
+31. La mayor parte del tráfico de Internet se mueve por:
+Cables submarinos
+
+33. Lo más importante para que tu empresa logre hacer Inteligencia Artificial es tener:
+Muchos datos
+
+35. Al talento técnico lo que más los motiva es:
+Crecer como profesionales.
+
+38. Enviar emails hacia adentro entre empleados de la misma empresa es:
+Una práctica anticuada pero segura.
+REPASAR CLASE
+
+40. Entre el 2015 y el 2020 los salarios de programadores han crecido anual en promedio un:
+15%
+
+41. Un firewall es algo que funciona con:
+Hardware o Software
+
+43. ¿Qué necesitas como jefa para crear una empresa disruptiva?
+La valentía de tomar riesgos.
+
+39. Algo inesperado pero necesario si construyes tu propio Data Center es: 
+Un contrato local con bomberos.
+REPASAR CLASE
+
+41. Si con cierto software en tu empresa logras una ventaja competitiva en el mercado, ese software deberías:
+Crearlo en la empresa.
+
+43. ¿Qué debes hacer con ese “genio” que tienes en tu empresa, que es arrogante y sabelotodo, pero es la única persona que conoce ciertos procesos técnicos de tu equipo?
+Ascenderlo a un cargo directivo.
+REPASAR CLASE
+
+44.   
