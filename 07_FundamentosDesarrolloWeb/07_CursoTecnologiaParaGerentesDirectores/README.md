@@ -105,9 +105,7 @@ Al guardar datos de salud de personas.
 
 27.
 ¿Qué pasará con los costos de los desarrolladores de software en programación?
-Serán más baratos.
-Seguirán igual.
-REPASAR CLASE
+Serán más caros.
 
 29.
 La diferencia de salarios entre quienes van a la universidad y los autodidactas es:
@@ -119,7 +117,6 @@ Crecer como profesionales.
 
 31.
 A las personas que no siguen una carrera de gestión de personal sino de crecimiento técnico se les conoce como:
-
 SE: Software Engineers
 REPASAR CLASE
 
@@ -138,8 +135,7 @@ Muchos datos
 Crecer como profesionales.
 
 38. Enviar emails hacia adentro entre empleados de la misma empresa es:
-Una práctica anticuada pero segura.
-REPASAR CLASE
+Un hueco de seguridad.
 
 40. Entre el 2015 y el 2020 los salarios de programadores han crecido anual en promedio un:
 15%
@@ -161,4 +157,20 @@ Crearlo en la empresa.
 Ascenderlo a un cargo directivo.
 REPASAR CLASE
 
-44.   
+44.¿Cuál es la diferencia entre Product Owner y un Product Manager? 
+La Product Owner gestiona las decisiones técnicas, la Product Manager es la conexión con el modelo de negocio.
+REPASAR CLASE
+
+45.Una VP de Ingeniería es:
+Quien gestiona la parte humana de un equipo técnico.
+
+47. ¿Qué significa QA en el ciclo del software?
+    Control de calidad
+
+49. El trabajo de ETL (Extraer, Transformar, Cargar) en la compañía es responsabilidad de:
+Data Scientists
+
+50. ¿Qué significa QA en el ciclo del software?
+Control de calidad
+
+
