@@ -165,8 +165,7 @@ REPASAR CLASE
 VERDADERO
 
 51. ¿Cuáles son todas las partes de un Critical Rendering Path?
-DOM 2. CSSOM 3. Render Tree 4. JS Engine 5. Paint
-REPASAR CLASE
+DOM 2. CSSOM 3. Render Tree 4. Layout 5. Paint
 
 52. Todos los diagramas de flujo siempre deben tener un operador de decisión.
 FALSO
@@ -175,7 +174,7 @@ FALSO
 P0nie5 danzantes en el @ire
 
 56. ¿Cuántos bits utiliza una dirección ipv4?
-32 
+(32) 
 
 57. ¿Puedo conectar un monitor a mi laptop?
 Sí. Siempre y cuando tenga una salida de video, comúnmente del tipo HDMI.
@@ -192,6 +191,86 @@ REPASAR CLASE
 
 64. Estás en la rama master y quieres mandar los últimos cambios que guardaste con git stash a la rama retomando-los-cambios (la rama no ha sido creada aún). ¿Cuál de las siguientes soluciones es incorrecta?
 git branch retomando-los-cambios, git checkout retomando-los-cambios, git stash pop
-REPASAR CLASE 
+REPASAR CLASE
+
+65. Se crean dos archivos cuando creas una llave pública y privada para SSH, ¿cuál es la extensión de la llave privada?
+.ssh
+
+66. ¿Cuáles son periféricos de entrada?
+Teclado, micrófono, cámara, mouse, escáner.
+
+68. Un pull request es:
+Un cambio sugerido a un repositorio que el dueño del repositorio puede autorizar y hacer merge a la rama que elija.
+
+
+70. ¿La terminal ideal para usar Git en Windows es?
+Powershell
+
+71. ¿Qué es un motor de búsqueda?
+    Un sitio web que nos ayuda a encontrar información en la web.
+
+73. ¿Cómo podemos definir a un paradigma de programación?
+Como la forma de clasificar a los lenguajes de programación o estilos de programar.
+
+75. Un ejemplo de máquina abstracta es:
+La máquina de Turing
+
+77. La velocidad de los procesadores se mide en
+Hertz
+
+79. ¿Cómo podríamos definir un lenguaje de programación?
+Un conjunto de instrucciones que nos permite comunicarnos con la computadora
+
+81. A las personas que no siguen una carrera de gestión de personal sino de crecimiento técnico se les conoce como:
+T: Técnologos
+SE: Software Engineers
+REPASAR CLASE
+
+
+83. ¿Qué es una función lambda?
+Una función anónima, de uso único, contexto específico y simplificada.
+
+85. ¿Qué es la CPU?
+La unidad central de procesamiento
+
+87. En un commit, los mensajes del commit son:
+Importantes, pero opcionales.
+
+88. ¿Qué lenguaje introdujo el concepto de "código intermedio"?
+PASCAL
+
+89. Si con cierto software en tu empresa logras una ventaja competitiva en el mercado, ese software deberías:
+Crearlo en la empresa.
+
+91. ¿Qué es un objeto?
+Una abstracción en código que nos permite crear representaciones de elementos del mundo que conocemos (por ejemplo, carro, computadora, estudiante, entre otros).
+
+
+92. Cuando hay un conflicto entre archivos lo mejor es:
+Analizar los conflictos tal como los reportó Git y elegir los cambios finales, luego commit.
+
+93. ¿A qué se parece más el desarrollo de software?
+A cocinar. Hay reglas, formas correctas e incorrectas, pero es práctica e iteración y un poco de creatividad.
+
+94. Además de Windows, ¿qué otros sistemas operativos existen para computadoras?
+Linux y macOS.
+
+95. ¿Qué rango de puertos de red requieren permisos de administrador en el sistema operativo para ser usados?
+1 - 1024
+    
+96. ¿En qué consiste la abstracción en el paradigma orientado a objetos?
+En aislar las características de un elemento para su representación.
+
+97. ¿Cuál es la diferencia entre git rm y git reset HEAD?
+git rm borra todos los commits y el historial donde aparezcan los archivos. git reset head también, pero guarda los últimos cambios en Staging.
+
+98. ¿Un ciclo for puede inicializarse en 1?
+Verdadero
+
+99. Entre el 2015 y el 2020 los salarios de programadores han crecido anual en promedio un:
+15%
+    
+
+
 
 
