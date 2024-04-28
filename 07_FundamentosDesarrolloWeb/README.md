@@ -187,16 +187,18 @@ DevOps
 
 63. ¿Qué significa que las funciones sean tratadas como ciudadanas de primera clase?
 Solo pueden recibir como parámetros otras funciones.
+Tienen privilegios en ejecución por encima a otros tipos de datos.
 REPASAR CLASE
 
-64. Estás en la rama master y quieres mandar los últimos cambios que guardaste con git stash a la rama retomando-los-cambios (la rama no ha sido creada aún). ¿Cuál de las siguientes soluciones es incorrecta?
+65. Estás en la rama master y quieres mandar los últimos cambios que guardaste con git stash a la rama retomando-los-cambios (la rama no ha sido creada aún). ¿Cuál de las siguientes soluciones es incorrecta?
 git branch retomando-los-cambios, git checkout retomando-los-cambios, git stash pop
+git checkout -b retomando-los-cambios, git stash pop
 REPASAR CLASE
 
-65. Se crean dos archivos cuando creas una llave pública y privada para SSH, ¿cuál es la extensión de la llave privada?
+66. Se crean dos archivos cuando creas una llave pública y privada para SSH, ¿cuál es la extensión de la llave privada?
 .ssh
 
-66. ¿Cuáles son periféricos de entrada?
+67. ¿Cuáles son periféricos de entrada?
 Teclado, micrófono, cámara, mouse, escáner.
 
 68. Un pull request es:
@@ -268,9 +270,70 @@ git rm borra todos los commits y el historial donde aparezcan los archivos. git 
 Verdadero
 
 99. Entre el 2015 y el 2020 los salarios de programadores han crecido anual en promedio un:
+
 15%
-    
+
+100. Si un archivo tiene los permisos 750 que usuarios lo pueden editar
+Administrador
+
+101. Si en el .gitignore agrego esto: images/*.js. ¿Cuál de los siguientes archivos sería ignorado?
+images/jquery.js
 
 
+103. ¿Cómo puedo cargar mi computador?
+El puerto de carga suele ser un puerto circular en los extremos del equipo y lo utilizamos para conectar el cargador.
+
+105. Son los niveles de descripción tanto en el lenguaje natural como en lenguajes de programación:
+Sintaxis, semántica e implementación.
+REPASAR CLASE
+
+107. Idealmente, ¿quién debería hacer la primera entrevista al talento técnico que contrates?
+Director de área
+
+109. Es un problema de la concurrencia que ocurre cuando un hilo espera a acceder a un recurso exclusivo y esto nunca sucede:
+ Punto muerto (deadlock)
+   
+111. Un PM o Product Manager debe saber de:
+Desarrollo de software
+
+113. Verdadero o falso: ¿en programación también se pueden aplicar las operaciones matemáticas básicas?
+Verdadero
+
+115. Un contenedor de vídeos es
+El formato que agrupa el video y audio con un encoding
+
+117. ¿En qué categorías se dividen las estructuras de control?
+Condicionales y Ciclos
+
+119. ¿Qué podemos hacer con un Email?
+Enviar y recibir correos electrónicos para compartir información: fotos, videos, audio, texto, entre otros.
+
+121. Si un desarrollador de software quiere ganar más, lo más rápido es:
+Aprender inglés
+
+123. ¿Con amend puedo?
+Corregir los mensajes de un commit que hice mal sin que quede en la historia del repositorio.
+
+125. ¿Qué es un System-on-a-Chip?
+Un chip especial que agrupa CPU/GPU y otros chips de un dispositivo
+
+127. El operador aritmético dado por el símbolo * se utiliza para:
+Multiplicación
+
+129. ¿Pueden los lenguajes de programación soportar más de un paradigma?
+Verdadero
+
+131. ¿Qué es un DNS?
+Es un sistema que asocia los nombre de dominio con la IP del servidor
+
+133. Git funciona para muchos tipos de archivo, ¿Qué tal funciona Git con archivos binarios?
+
+Git no puede usar archivos binarios, solo texto plano.
+Repasar clase
+
+134. Cuando hablamos de lenguaje ensamblador nos referimos a uno específico. Esta afirmación es:
+Verdadera
+REPASAR CLASE 
+136. 
 
 
