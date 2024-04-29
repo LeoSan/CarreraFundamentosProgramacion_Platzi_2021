@@ -188,6 +188,7 @@ DevOps
 63. ¿Qué significa que las funciones sean tratadas como ciudadanas de primera clase?
 Solo pueden recibir como parámetros otras funciones.
 Tienen privilegios en ejecución por encima a otros tipos de datos.
+Que pueden recibir una o más funciones como parámetro y dar salida a otra función.
 REPASAR CLASE
 
 65. Estás en la rama master y quieres mandar los últimos cambios que guardaste con git stash a la rama retomando-los-cambios (la rama no ha sido creada aún). ¿Cuál de las siguientes soluciones es incorrecta?
@@ -207,8 +208,9 @@ Un cambio sugerido a un repositorio que el dueño del repositorio puede autoriza
 
 70. ¿La terminal ideal para usar Git en Windows es?
 Powershell
+REPASAR CLASE
 
-71. ¿Qué es un motor de búsqueda?
+72. ¿Qué es un motor de búsqueda?
     Un sitio web que nos ayuda a encontrar información en la web.
 
 73. ¿Cómo podemos definir a un paradigma de programación?
@@ -334,6 +336,62 @@ Repasar clase
 134. Cuando hablamos de lenguaje ensamblador nos referimos a uno específico. Esta afirmación es:
 Verdadera
 REPASAR CLASE 
-136. 
+
+136. Quieres crear un archivo llamado main para guardar tu código JavaScript. ¿Cuál debe ser su nombre completo (con extensión)?
+main.js
+
+138. ¿Qué guarda Git?
+Los cambios de los archivos de un proyecto.
+
+140. ¿Cuál de las siguientes propiedades de CSS NO hace parte del modelo de caja?
+background
+
+142. Cuando usas git stash, los cambios que “guardas” temporalmente se guardan en
+Memoria temporal, volviendo al estado del último commit.
+
+144. ¿Cuál es el resultado de la conjunción F Ʌ V?
+f
+
+145. ¿Qué es una API (Application Programming Interface)?
+Una forma de conectar bases de datos con otros sistemas, como front-ends o apps móviles.
+
+147. ¿Qué es un branch o una rama en Git?
+Un repositorio aparte del master donde puedes trabajar en paralelo.
+REPASAR CLASE
+
+148. ¿Qué crean los tags en Git?
+Versiones descargables y puntos únicos en una rama de un repositorio.
+
+149. ¿Qué propiedad y valor de CSS debemos usar si queremos crear dos columnas de 100px cada una usando CSS Grid?
+grid-template-columns: 1fr 1fr;
+REPASAR CLASE
+
+150. ¿Quién está a cargo de crear las rutas de crecimiento del talento técnico del equipo?
+VP de Ingeniería
+
+152. Lo más importante para que tu empresa logre hacer Inteligencia Artificial es tener:
+Muchos datos
+
+154. ¿Qué significa el “this” al momento de construir nuestra clase?
+La palabra clave “this” se refiere al objeto actual en el que se está escribiendo el código.
+
+156. ¿Quién despide?
+VP de Ingeniería
+
+158. El trabajo de ETL (Extraer, Transformar, Cargar) en la compañía es responsabilidad de:
+Data Scientists
+
+160. ¿Cuál es el propósito del operador lógico Xor?
+Devuelve True si Expresión1 es verdadera o Expresión2 es verdadera, pero no ambas.
+
+162. ¿Qué sucede cuando borras un archivo?
+Se elimina el índice de la cabecera del sistema de archivos
+
+164. El router de Internet de tu casa puede ser un servidor en Internet
+Verdadero
+
+166. 
+
+
 
 
