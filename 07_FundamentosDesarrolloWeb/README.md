@@ -390,7 +390,54 @@ Se elimina el índice de la cabecera del sistema de archivos
 164. El router de Internet de tu casa puede ser un servidor en Internet
 Verdadero
 
-166. 
+166. ¿JavaScript es un lenguaje que se deriva de Java?
+FALSO
+
+167. Vas a crear una variable y asignarle un valor. ¿Dónde se almacena este contenido?
+Los archivos se guardan en el disco duro cuando escribimos el código. Las variables se guardan en memoria RAM cuando ejecutamos el código.
+
+169. ¿Qué es ISP?
+Proveedor de servicios de Internet (Internet Service Provider).
+
+171. ¿Para qué sirve git grep?
+Para encontrar los mensajes de commits que incluyen una cierta palabra.
+REPASAR CLASE 
+
+172. Un firewall es algo que funciona con:
+Hardware o Software
+
+174. ¿Qué antivirus se recomienda en el curso?
+Windows Defender
+
+176. ¿Qué es un motor de búsqueda?
+Un sitio web que nos ayuda a encontrar información en la web.
+
+178. ¿Qué pasará con los costos de los desarrolladores de software en programación?
+Serán más caros.
+
+180. ¿En qué paso del Critical Rendering Path, se combina el DOM y el CSSOM?
+Render Tree
+
+182. ¿Qué es el método forEach? ¿Para qué sirve?
+Es un método que nos permite recorrer y realizar una función específica por cada uno de los elementos que se encuentren en un arreglo.
+
+184. El dueño de un repositorio al ver un pull request puede:
+Editarlo, aceptarlo, darle merge, comentarlo para pedir cambios.
+
+186. ¿Cuáles fueron las tres tecnologías que dieron nacimiento a la web como la conocemos hoy en día?
+HTML, URL y HTTP.
+
+188. ¿La sentencia Catch de un bloque Try / Catch nos permite encapsular la sección de nuestro algoritmo en caso de que un resultado haya sido verdadero o sin errores?
+FALSO 
+
+179. “Martha está en el mar” es un dato de tipo:
+TEXTO 
+
+180. ¿Cuál es la propiedad que nos permite agregar HTML desde JavaScript?
+innerHTML
+
+
+
 
 
 
