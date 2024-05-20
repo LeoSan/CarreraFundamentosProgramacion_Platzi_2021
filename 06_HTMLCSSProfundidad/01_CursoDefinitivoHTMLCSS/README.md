@@ -146,8 +146,66 @@ Pero NUNCA trabajes como fullstack, muchas empresas creen que contratando a un f
 8. Nos permite dar un título a nuestra pagina, el titulo se muestra en los tabs del navegador.
 9. Nos permite cargar dependencias para el correcto funcionamiento de nuestro sitio ej. Archivos
 10. *A*quí va toda la estructura de la parte visual es decir todo lo que el usuario si va a poder ver.
+
+## Clase 8: Index y su estructura básica: body
+
+> body es la parte visible de nuestro website :). Es muy importante usar HTML semántico y no llenar todo de <div> para que nuestro sitio sea mejor interpretado por el navegador y por lo tanto más accesible.
+
+```
+  <body>
+
+    <header> <!--Sección superior de nuestro website--> 
+
+      <nav></nav> <!--Sección de navegación de nuestro website, siempre dentro del header-->
+
+    </header>
+
+    <main> <!--Main es el contenido central de nuestro website, "la parte del medio"-->
+
+      <section> 
+        <!--Nuestro website puede estar divido por secciones, por ejemplo platzi tiene 3: El navegador de cursos y rutas, el feed y nuestras rutas de aprendizaje-->
+
+        <article>
+          <!--Contenido independiente de la página. Es reutilizable-->
+        </article>
+
+      </section>
+
+      <ul> <!--Lista desordenada: Sin numerar-->
+
+        <li><!--Item List. Elementos de la lista--></li>
+
+      </ul>
+
+      <ol></ol> <!--Lista ordenada: Numerada-->
+      
+    </main>
+
+    <footer> <!--Sección final de nuestro website-->
+
+    </footer>
+
+    <p>Soy un texto</p> <!--Párrafo, texto-->
+
+    <h1>Soy un titulo</h1> 
+    <!--Títulos, muestran el texto más grande y con negrilla. Existen desde el h1 al h6-->
+
+    <a href="#">Soy un link</a>
+    <!--Enlaces/links que nos permitirán movernos entre páginas.-->
+
+  </body>
 ```
 
+## Clase 9: Reto: crea tu lista de compras del supermercado
+
+```
+
+Crear una receta con los diferentes enlaces al paso 
+
+```
+## Clase 10: Anatomía de una etiqueta de HTML
+
+> Una etiqueta puede tener tantos atributos como desees, y cada atributo tiene su propia función, recomiendo mucho la documentación de Mozilla Developer porque están muy bien explicadas cada etiqueta HTML, y te dice desde qué atributos puede llevar hasta qué hijos puede tener
 
 
 
