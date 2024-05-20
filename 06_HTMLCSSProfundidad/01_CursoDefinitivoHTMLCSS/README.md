@@ -230,3 +230,64 @@ Crear una receta con los diferentes enlaces al paso
 - PNG24 -> Portable Network Graphics => Formato portable de graficos, mas colores,  entra al pack de los (Lossless)
 - JPGE -> Photographic Experts Group => Grupo de expertos fotograficos  =>  , entra al pack de los (Lossy)
 - SVG  -> Scalable Vector Graphipc => =>Usado para pantalla de retina display, entra al pack de los (Lossless)
+
+**Infografía**
+![Tipo Formatos](../01_CursoDefinitivoHTMLCSS/info/Formatos_colores.png)
+
+## Clase 12: Optimización de imágenes
+
+Tamaño máximo recomendado para una imágen:
+
+70kb . Herramientas para optimizar imágenes:
+Tiny PNG: Comprime el tamaño de una imagen, para hacerla más ligera.
+Verefix: Elimina los metadatos de una imagen, para reducir su tamaño.
+
+**Imagenes Free**
+- Pexels 
+- Pixabay 
+- Freerange 
+- Realistic Shots 
+- PicJumbo 
+- Magdeleine 
+- Creativecommons 
+- Freejpg
+
+## Clase 13: Etiqueta img
+
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagenes</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <figure> <!-- Genera un contenedor para la imagen -->
+          <img
+            src="./pics/tinified/small.jpg"
+            alt="Es una imagen de un perrito"
+          />
+          <figcaption>Es una imagen de un perrito</figcaption>
+        </figure>
+
+          <figure>
+          <img loading="lazy"  src="manzana.png" alt="People">
+          <figcaption>Es una imagen de un perrito</figcaption>
+        </figure>
+
+      </section>
+    </main>
+  </body>
+</html>
+```
+
+Atributo loading El atributo loading permite al navegador retrasar la carga de imáges y de iframes que están fuera de pantalla, hasta que el usuario haga scroll cerca de ellas. Éste atributo soporta 3 valores:
+
+lazy: Retrasa la carga de la imagen hasta que el usuario alcanza con el scroll una distancia calculada desde el viewport.
+eager: Carga la imagen inmediatamente, sin importar donde está situada o colocada en la pantalla. En resumen, no hace lazy-loading.
+auto: Implementa el comportamiento por defecto del navegador para la carga de las imágenes. En resumen, poner auto es lo mismo que no poner el atributo loading.
+
