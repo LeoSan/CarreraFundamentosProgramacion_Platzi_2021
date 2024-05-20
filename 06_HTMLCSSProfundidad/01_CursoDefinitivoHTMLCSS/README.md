@@ -291,3 +291,49 @@ lazy: Retrasa la carga de la imagen hasta que el usuario alcanza con el scroll u
 eager: Carga la imagen inmediatamente, sin importar donde está situada o colocada en la pantalla. En resumen, no hace lazy-loading.
 auto: Implementa el comportamiento por defecto del navegador para la carga de las imágenes. En resumen, poner auto es lo mismo que no poner el atributo loading.
 
+## clase 14: Etiqueta figure
+
+<picture>, es ideal para usarla cuando quieres tener más flexibilidad al momento de especificar distintas imágenes, si quieres tener un diseño responsive en tu web. Dentro de ella van dos etiquetas: <source> (y sus atributos principales serían media: para especificar el tamaño y srcset: para indicar la url de la imagen <img> (con los atributos que ya explicó el profe Diego. Y esta sería la imagen principal)
+
+<picture>
+  <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+
+En esta página la pueden ver también https://www.w3schools.com/tags/tag_picture.asp
+
+## clase 15: Etiqueta video
+
+La etiqueta <video>, tiene algunos atributos como: .
+
+- controls: agrega al video los controles necesarios para reproducir, pausar y adelantar.
+- preload = auto: hace que el navegador descargue el video, en el momento en el que se acceda a la página.
+- preload="metadata" Carga previa de los metadatos
+- preload="none" No existe carga de vídeo previa
+- La etiqueta <source>, se puede colocar dentro de una etiqueta <video> varias veces, para especificar diferentes rutas. 
+ Esto para asegurar que cualquier navegador pueda mostrar el video.
+
+ **Facil** 
+
+```
+Además tenemos una opción muy interesante a la hora de cargar un video, si quisieramos tener un minuto con segundo específico de inicio y uno del final lo podemos hacer de esta forma:
+<video src="rutaVideo#t=1.06, 1.40" controls preload="auto"></video>
+`` 
+
+
+ **Segura**
+Si queremos colocar distintos formatos del video para tener una mayor compatibilidad con los distintos navegadores, podemos usar la etiqueta source de esta forma
+ ```
+<video controls preload="auto">
+<source src="rutaVideo#t=1.06, 1.40"/>
+<source src="rutaVideo2#t=1.06, 1.40"/>
+<source src="rutaVideo3#t=1.06, 1.40"/>
+</video>
+`` 
+
+
+
+
+
