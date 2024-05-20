@@ -207,5 +207,26 @@ Crear una receta con los diferentes enlaces al paso
 
 > Una etiqueta puede tener tantos atributos como desees, y cada atributo tiene su propia función, recomiendo mucho la documentación de Mozilla Developer porque están muy bien explicadas cada etiqueta HTML, y te dice desde qué atributos puede llevar hasta qué hijos puede tener
 
+## Clase 11: Tipos de imágenes
+
+**Tipos de imágenes en cuanto a concepto**
+
+- Lossless (sin pérdida):
+  - Capturan todos los datos del archivo original.
+  - No se pierde nada del archivo original.
+  - Puede comprimirse, pero podrá reconstruir su imagen al estado original
+
+- Lossy (con pérdida):
+  - Se aproximan a su imagen original.
+  - Podría reducir la cantidad de colores en su imagen o analizar la imagen en busca de datos innecesarios.
+  - Por consiguiente puede reducir su tamaño, lo que mejora el tiempo de carga de la página, pero pierde su calidad.
+  - Los archivos tipo lossy son mucho más livianos que los archivos tipo lossless, por lo que son ideales para usar en sitios en donde el tamaño del archivo y la velocidad de descarga son importantes.
 
 
+**Tipos de imágenes en cuanto a formato**
+
+- GIF -> Graphics Interchange Format => Formato de graficos intercambiale, entra al pack de los (Lossless)
+- PNG -> Portable Network Graphics => Formato portable de graficos, entra al pack de los (Lossless)
+- PNG24 -> Portable Network Graphics => Formato portable de graficos, mas colores,  entra al pack de los (Lossless)
+- JPGE -> Photographic Experts Group => Grupo de expertos fotograficos  =>  , entra al pack de los (Lossy)
+- SVG  -> Scalable Vector Graphipc => =>Usado para pantalla de retina display, entra al pack de los (Lossless)
