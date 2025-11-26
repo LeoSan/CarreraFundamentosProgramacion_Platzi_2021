@@ -11,3 +11,6 @@
 
 ## Certificate Final
 ![Imagen](Fundamental_Develeper_Certificate_2020_Platzi.png)
+
+## Update Certificate 
+-  [Fundamentals of Software Engineering ](LeoSan/CarreraFundamentosProgramacion_Platzi_2021/08_CursoFundamentosIngenierIaSoftware/2025_Diploma-ingenieria_PLATZI.pdf)
